@@ -5,9 +5,10 @@
 //  Created by 宋題均 on 2017/10/20.
 //  Copyright © 2017年 宋題均. All rights reserved.
 //
-using namespace cv;
+
 #ifndef Otsu_h
 #define Otsu_h
+using namespace cv;
 unsigned char Otsu(const Mat &hist){
     int totalpixel =0;
     unsigned int Esum = 0;           //the sum of i*p(i)

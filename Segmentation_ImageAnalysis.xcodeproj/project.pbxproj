@@ -58,14 +58,10 @@
 		4D3D623B1F99CB87008BA0A1 /* libopencv_core.3.3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.3.3.0.dylib; path = ../../../../usr/local/lib/libopencv_core.3.3.0.dylib; sourceTree = "<group>"; };
 		4D3D623C1F99CB87008BA0A1 /* libopencv_imgcodecs.3.3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgcodecs.3.3.0.dylib; path = ../../../../usr/local/lib/libopencv_imgcodecs.3.3.0.dylib; sourceTree = "<group>"; };
 		4D3D624E1F99CCF2008BA0A1 /* Otsu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Otsu.h; sourceTree = "<group>"; };
-		4D3D624F1F99EC5B008BA0A1 /* linsfN.raw */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = linsfN.raw; sourceTree = "<group>"; };
-		4D3D62501F99EC5B008BA0A1 /* ler.raw */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ler.raw; sourceTree = "<group>"; };
-		4D3D62511F99EC5C008BA0A1 /* Frogs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Frogs.jpg; sourceTree = "<group>"; };
-		4D3D62521F99EC5C008BA0A1 /* linsfT.raw */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = linsfT.raw; sourceTree = "<group>"; };
-		4D3D62531F99EC67008BA0A1 /* whorl.raw */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = whorl.raw; sourceTree = "<group>"; };
-		4D3D62541F99EC67008BA0A1 /* rloop.raw */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rloop.raw; sourceTree = "<group>"; };
 		4D3D62551F9F1A91008BA0A1 /* ICM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICM.h; sourceTree = "<group>"; };
 		4D3D62561F9F789B008BA0A1 /* Othucolor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Othucolor.h; sourceTree = "<group>"; };
+		4D46AC051FD7125B00E562A8 /* Sobel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sobel.h; sourceTree = "<group>"; };
+		4D46AC061FD7144B00E562A8 /* readRawfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = readRawfile.h; sourceTree = "<group>"; };
 		4DD438C91F97011700490093 /* Segmentation_ImageAnalysis */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Segmentation_ImageAnalysis; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD438CC1F97011700490093 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,14 +130,10 @@
 		4DD438CB1F97011700490093 /* Segmentation_ImageAnalysis */ = {
 			isa = PBXGroup;
 			children = (
-				4D3D62541F99EC67008BA0A1 /* rloop.raw */,
-				4D3D62531F99EC67008BA0A1 /* whorl.raw */,
-				4D3D62511F99EC5C008BA0A1 /* Frogs.jpg */,
-				4D3D62501F99EC5B008BA0A1 /* ler.raw */,
-				4D3D624F1F99EC5B008BA0A1 /* linsfN.raw */,
-				4D3D62521F99EC5C008BA0A1 /* linsfT.raw */,
 				4DD438CC1F97011700490093 /* main.cpp */,
+				4D46AC061FD7144B00E562A8 /* readRawfile.h */,
 				4D3D624E1F99CCF2008BA0A1 /* Otsu.h */,
+				4D46AC051FD7125B00E562A8 /* Sobel.h */,
 				4D3D62561F9F789B008BA0A1 /* Othucolor.h */,
 				4D3D62551F9F1A91008BA0A1 /* ICM.h */,
 			);
